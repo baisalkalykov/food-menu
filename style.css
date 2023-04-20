@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border:none;
+    text-decoration: none;
+}
+body{
+    background: whitesmoke;
+}
+.section__one {
+    position: relative;
+}
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.slidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: fixed;
+    width: 200px;
+    top: 10%;
+    left: 3%;
+}
+.slidebar__m {
+    font: 700 20px/100% 'Roboto';
+}
+.slidebar__m:hover{
+    width: 100px;
+    height: 40px;
+    background: #ddc3c320;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+
+}
+.slidebar__li__one {
+    font: 700 20px/100% 'Roboto';
+    cursor: pointer;
+}
+.slidebar__li__one:hover{
+    width: 180px;
+    height: 40px;
+    background: #ddc3c320;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.slidebar__li {
+    font: 700 20px/100% 'Roboto';
+    cursor: pointer;
+}
+.slidebar__li:hover{
+  width: 100px;
+  height: 40px;
+  background: #ddc3c320;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.text__p {
+    margin-top:110px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    font: 700 20px/100% 'Bold';
+    text-align: center;
+}
+.food__name{
+    margin-top:70px;
+    margin-left: 130px;
+    font: 700 20px/100% 'Bold';
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-left: 100px;
+}
+.card {
+    width: 290px;
+    height: 350px;
+    border: 1px rgb(90, 86, 86) solid;
+    box-shadow: whitesmoke;
+    border-radius: 10px;
+}
+
+.img {
+    margin: 10px 20px;
+}
+.img__one{
+    margin: 10px 50px;
+}
+.img__kom{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.card__name {
+    font: 600 15px/100% 'Roboto';
+    margin: 15px ;
+}
+.compound {
+    font: 600 13px/100% 'Roboto';
+    margin: 15px ;
+}
+.money {
+    display: flex;
+    justify-content: space-between;
+}
+.prise {
+    margin-left: 15px;
+}
+.money__btn {
+    width: 100px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.money__btn:hover{
+    background: darkseagreen;
+    color: whitesmoke;
+}
